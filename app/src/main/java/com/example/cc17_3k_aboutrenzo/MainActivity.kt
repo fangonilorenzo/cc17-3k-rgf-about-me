@@ -1,6 +1,7 @@
 package com.example.cc17_3k_aboutrenzo
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -28,7 +29,10 @@ class MainActivity : AppCompatActivity() {
 
         val aboutMe1 = AboutMe(R.mipmap.ic_launcher, "Renzo Fangonilo",
             "Short Desc",
-            {/*TODO*/ })
+            { view ->
+                val intent = Intent(this, AboutRenzoActivity::class.java)
+                startActivity(intent)
+            })
 
         val aboutMe2 = AboutMe(R.mipmap.ic_launcher, "Renzo Pogi Mo",
             "Taga Elyu",
