@@ -34,9 +34,13 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             })
 
-        val aboutMe2 = AboutMe(R.mipmap.ic_launcher, "Renzo Pogi Mo",
+        val aboutMe2 = AboutMe(R.drawable.renzopogimo, "Renzo Pogi Mo",
             "Taga Elyu",
-            {/*TODO*/ })
+            { view ->
+                val intent = Intent(this, AboutRenzoPogiMoActivity::class.java)
+                startActivity(intent)
+
+            })
 
         val arraylist = arrayListOf<AboutMe>(aboutMe1, aboutMe2)
 
