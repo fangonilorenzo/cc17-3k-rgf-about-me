@@ -28,13 +28,13 @@ class MainActivity : AppCompatActivity() {
         rvAboutMe.layoutManager = LinearLayoutManager(this)
 
         val aboutMe1 = AboutMe(R.mipmap.ic_launcher, "Renzo Fangonilo",
-            "Short Desc",
+            "Student",
             { view ->
                 val intent = Intent(this, AboutRenzoActivity::class.java)
                 startActivity(intent)
             })
 
-        val aboutMe2 = AboutMe(R.drawable.renzopogimo, "Renzo Pogi Mo",
+        val aboutMe2 = AboutMe(R.drawable.ic_launcher_foreground, "Renzo Fangonilo",
             "Taga Elyu",
             { view ->
                 val intent = Intent(this, AboutRenzoPogiMoActivity::class.java)

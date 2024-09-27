@@ -21,8 +21,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Renzo Pogi Mo"
-                android:textSize="60sp"
+                android:text="Renzo Fangonilo"
+                android:textSize="50sp"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -35,14 +35,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Siyak ni Renzo Pogi Taga Crossing, Nasimpet ken nagaget,ken mahilig ak nga ag Basketball"
+                android:text="A Information Technology Student at UNIVERSITY OF THE CORDILLERAS)"
                 android:textSize="24sp"
                 />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:src="@drawable/renzopogimo"
+                android:src="@drawable/renzz"
                 />
 
         </LinearLayout>
